@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.hero {
+    background: url('romantic-background.jpeg') no-repeat center center/cover;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before,
+.hero::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('balloons.jpeg') no-repeat center center;
+    background-size: contain;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+
+.date-info{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.date-info {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-info p {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+}
+.date-info   img {
+    width: 200px;
+    height: 200px;
+    margin: 0 0.5rem;
+}
+
+.cta-buttons a {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cta-buttons .view-gallery {
+    background-color: #ff6b6b;
+}
+
+.cta-buttons .read-message {
+    background-color: #ff4757;
+}
+
+.funny-things {
+    background-color: #ffb3b3;
+    padding: 2rem;
+    text-align: center;
+}
+
+.funny-things h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.funny-things ul {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
+
+.funny-things li {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.qr-code    img {
+    width: 100px;
+    margin: 0 0.5rem;
+}
+.photo p{
+    font-size: 1rem;
+    color: #fff;
+}
+.photo img{
+    width : 300px;
+    padding: 1rem;
+    
+}
+
+.date-request {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.date-request h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff4757;
+}
+
+.date-request button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.date-request button:hover {
+    background-color: #ff6b6b;
+}
+
+footer {
+    background-color: #b856b4;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons {
+    margin-top: 0.5rem;
+}
+
+footer .social-icons img {
+    width: 100px;
+    margin: 0 0.5rem;
+}
